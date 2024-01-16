@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Animations</title>
+  <link rel="shortcut icon" href="32Plux.png">
+  
+  <meta name="description" content="Contact card for Nathan Fong">
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+
+<div class="top-container">
+  <h1>Scroll Down</h1>
+  <p>Scroll down to see the sticky effect.</p>
+</div>
+
+<div class="header" id="myHeader">
+  <div class="dropdown">
+  <button class="dropbtn">Animations</button>
+  <div class="dropdown-content">
+    <a href="Main.html">Main Videos</a>
+    <a href="Poggies.html">Poggies</a>
+    <a href="Coggies.html">Coggies</a>
+    <a href="Voggies.html">Voggies</a>
+    <a href="Owoggies.html">Owoggies</a>
+    <a href="Pod.html">Nightshade Podcast</a>
+    <a href="#">Link 2</a>
+    <a href="Animations.html">Animations</a>
+  </div>
+  </div>
+</div>
+
+<div class="content">
+<div class="cards">
+  <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/SS5JvBGRc_0"></iframe>
+</div>
+
+    <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/URHb2lIlpoo"></iframe>
+</div>
+ 
+      <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/Qm3w50ihV98"></iframe>
+</div>
+
+  <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/IJfb2kRMoGo"></iframe>
+</div>
+
+  <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/u2TD80xpMeU"></iframe>
+</div>
+
+    <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/YgvZED--zis"></iframe>
+</div>
+
+      <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/gGWMBtUyiFI"></iframe>
+</div>
+
+  <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/dM2gem-wtaM"></iframe>
+</div>
+
+  <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/5wKI1McK8LE"></iframe>
+</div>
+
+  <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/SFaZNmW6XqM"></iframe>
+</div>
+
+    <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/-O1iaXTqt60"></iframe>
+  </div>
+
+    <div class="container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/eLxI8THE2YY"></iframe>
+</div>
+
+  <div class="container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/YQ9UbWG5iOI"></iframe>
+</div>
+  
+</div>
+  
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
